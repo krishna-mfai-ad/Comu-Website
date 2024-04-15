@@ -124,7 +124,8 @@ a {
 .content {
     display: flex;
     align-items: center;
-    justify-content: space-around;
+    justify-content: space-between;
+    padding: 60px 128px 30px;
 }
 
 .text-content {
@@ -187,8 +188,9 @@ a {
 
 .three-box {
     display: flex;
-    justify-content: space-around;
-    margin: 100px;
+    padding: 84px 113px 130px 114px;
+    justify-content: space-between;
+    /* margin: 100px; */
 }
 
 .box {
@@ -257,7 +259,8 @@ p {
 .section-3 {
     display: flex;
     flex-direction: row-reverse;
-    justify-content: space-evenly;
+    justify-content: space-between;
+    padding: 0px 206px;
     align-items: center;
 }
 
@@ -305,7 +308,8 @@ p {
     display: flex;
     align-items: center;
     justify-content: center;
-    margin: 130px;
+    /* margin: 130px; */
+    padding: 115px 114px;
 }
 
 .s4-container {
@@ -378,6 +382,7 @@ p {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    padding:0px 115px 0px;
 }
 
 .section-5 h1 {
@@ -407,10 +412,9 @@ p {
 
 .section-6 {
     display: flex;
-    align-items: center;
-    justify-content: space-evenly;
-    margin: 100px;
-    gap: 215px;
+    padding: 100px 115px 155px 115px;
+    justify-content: center;
+    gap: 166px;
 }
 
 .text-content-s6 {
@@ -456,6 +460,7 @@ p {
 .section-7 {
     display: flex;
     justify-content: center;
+    padding: 0px 113px;
 }
 
 .s7-container {
@@ -544,9 +549,10 @@ p {
 .section-8 {
     display: flex;
     align-items: center;
-    justify-content: space-evenly;
-    margin: 100px;
-    gap: 215px;
+    justify-content: space-between;
+    /* margin: 100px; */
+    padding: 100px 160px ;
+    gap: 114px;
 }
 
 .text-content-s8 {
@@ -668,8 +674,8 @@ p {
 
 .three-box-2 {
     display: flex;
-    justify-content: space-around;
-    margin: 100px;
+    padding: 100px 113px;
+    justify-content: space-between;
 }
 
 .para-box-2 {
@@ -730,6 +736,7 @@ p {
 
 .section-11 {
     display: flex;
+    padding: 86px 97px;
     justify-content: center;
 }
 
@@ -853,8 +860,8 @@ p {
 
 .stories {
     display: flex;
+    padding: 86px 97px;
     justify-content: center;
-    margin: 100px;
 }
 
 .stories-container {
@@ -898,6 +905,7 @@ p {
 
 .no-collection {
     display: flex;
+    padding: 120px 205px;
     justify-content: center;
 }
 
@@ -958,7 +966,7 @@ p {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin: 100px 0px;
+    /* margin: 100px 0px; */
 }
 
 .discover h1 {
@@ -1049,6 +1057,7 @@ p {
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    padding:104px 415px 44px ;
 }
 
 .ques h1 {
@@ -1076,11 +1085,6 @@ p {
     /* 21.004px */
     letter-spacing: 0.5px;
 }
-
-.ques-list {
-    margin: 50px 0px;
-}
-
 .ques-conatiner {
     display: flex;
     align-items: flex-start;
@@ -1156,9 +1160,10 @@ p {
 }
 
 .more-ques {
+    margin: 0px;
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
+    /* justify-content: space-between; */
     align-items: center;
 }
 
@@ -1225,6 +1230,7 @@ p {
     align-content: center; */
     display: flex;
     align-items: center;
+    padding: 93px 97px;;
     justify-content: center;
 }
 
@@ -1232,7 +1238,6 @@ p {
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-top: 93px;
     border-radius: 44px;
     background: linear-gradient(102deg, #F7E6CB 0%, #F5F2EB 100%);
     box-shadow: 15px 15px 26px 0px #DD8762;
@@ -1291,7 +1296,6 @@ p {
     align-items: center;
     justify-content: center;
     gap: 17px;
-    margin-top: 113px;
 }
 
 .top-part {
@@ -1421,7 +1425,7 @@ p {
     display: flex;
     align-items: center;
     gap: 102px;
-    width: 1440px;
+    /* width: 1440px; */
     height: 66px;
     flex-shrink: 0;
     background: linear-gradient(90deg, #F7E6CB 0%, #F5F2EA 99.44%);
